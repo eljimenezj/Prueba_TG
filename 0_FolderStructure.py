@@ -10,9 +10,9 @@ label, esto respectivamente para train, validation y test
 import os, shutil
 
 # Debe redirigir la ruta en el lugar donde tiene las iamgenes de la prueba
-
 os.chdir("D:\\Users\\edgarjj\\Desktop\\Prueba Trascender Global\\64x64_SIGNS")
 
+# Iterador por carpetas
 for folder_source in os.listdir():
     path = os.path.join(os.getcwd(), folder_source)
     
