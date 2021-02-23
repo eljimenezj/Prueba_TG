@@ -1,4 +1,4 @@
-# Prueba_TG
+# Trascender Global - Image Classification
 Repo with the technical test results
 
 The steps of the technical test are described below.
@@ -44,7 +44,27 @@ Finally you must run the application with streamlit
 streamlit run app.py
 ```
 
+# Requirements
+
+* python==3.6
+* tensorflow==2.4.1
+* image==1.5.33
+* Keras == 2.4.3
+* Keras_Preprocessing == 1.1.2
+* Pillow == 8.1.0
+* joblib == 1.0.1
+* matplotlib == 3.3.4
+* opencv_python == 4.4.0.46
+* pandas == 1.2.2
+* scikit_learn == 0.23.2
+* streamlit == 0.76.0
+* tensorflow == 2.3.0
+* numpy == 1.19.2
+
+
 The list of libraries is in the file requirements.txt.
 
 For any comments or suggestions please write: eljimenezj@gmail.com
+
+**Edgar Jimenez, Feb 2021**
 
