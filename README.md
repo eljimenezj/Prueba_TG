@@ -14,3 +14,37 @@ Google Colaboratory was used to develop the classification model, for this, the 
 3. Step 3
 
 The image classification app is built using the streamlit. The previously trained model is loaded and deployed locally at http://localhost:8505/.
+
+# How to use this repo
+
+Important: Due to the weight of the trained model, it could not be uploaded to the personal github, so gitlab could be used. However, for this exercise the file uploaded is shared publicly on Google drive that you can download through this link (you must save it in this repo when you download it):
+Link model: https://drive.google.com/drive/folders/1zCYERJkrgcR38afeTBnVH32FsuzuMJtR?usp=sharing
+
+If you want to replicate the exercise you can:
+
+Create an new environment with conda promt, called for example imageclass: 
+```
+conda create -n imageclass python=3.6
+```
+Then, active your new environment:
+```
+conda activate NBA
+```
+ Install the libraries to use, first install streamlit:
+```
+pip install streamlit
+```
+Then, tensorflow, and all the others requirements
+```
+pip install tensorflow
+pip install ……
+```
+Finally you must run the application with streamlit
+```
+streamlit run app.py
+```
+
+The list of libraries is in the file requirements.txt.
+
+For any comments or suggestions please write: eljimenezj@gmail.com
+
