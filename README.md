@@ -28,7 +28,7 @@ conda create -n imageclass python=3.6
 ```
 Then, active your new environment:
 ```
-conda activate NBA
+conda activate imageclass
 ```
  Install the libraries to use, first install streamlit:
 ```
